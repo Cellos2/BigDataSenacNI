@@ -30,3 +30,5 @@ lampadas_finais = math.ceil(lampadas_finais)
 print(f"\nÁrea do cômodo: {area:.2f} m²")
 print(f"Potência total necessária: {potencia_necessaria:.2f} W")
 print(f"Lâmpadas necessárias (limitadas pelos bocais): {lampadas_finais}")
+
+
