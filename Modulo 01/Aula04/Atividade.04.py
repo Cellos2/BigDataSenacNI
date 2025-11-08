@@ -6,22 +6,17 @@
 
 codigo = int(input("Digite o código de origem do produto: "))
 
-match codigo:
-    case 1:
-        print("Região de origem: Sul")
-    case 2:
-        print("Região de origem: Norte")
-    case 3:
-        print("Região de origem: Leste")
-    case 4:
-        print("Região de origem: Oeste")
-    case 5 | 6:
-        print("Região de origem: Nordeste")
-    case n if 7 <= n <= 9:
-        print("Região de origem: Sudeste")
-    case 10:
-        print("Região de origem: Centro-Oeste")
-    case 11:
-        print("Região de origem: Noroeste")
-    case _:
-        print("Produto importado")
+if codigo == 1:
+    print("Procedência: Sul")
+elif codigo == 2:
+    print("Procedência: Norte")
+elif codigo == 3:
+    print("Procedência: Leste")
+elif codigo == 4:
+    print("Procedência: Oeste")
+elif codigo == 5 or codigo == 6:
+    print("Procedência: Nordeste")
+elif codigo >= 7 and codigo <= 9:
+    print("Procedência: Sudeste")
+else:
+    print("Procedência: Importado")
