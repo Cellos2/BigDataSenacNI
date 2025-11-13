@@ -13,8 +13,6 @@
 #Desafio: Criar uma única função que faça qualquer uma das conversões,
 #sempre perguntando ao usuário qual é desejada.
 
-
-
 def converter_temperatura():
     print("Conversor de Temperatura")
     print("1 - Celsius → Fahrenheit")
